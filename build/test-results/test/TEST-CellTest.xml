@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CellTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-04-04T06:21:01" hostname="Admins-MacBook-Pro.local" time="0.175">
+<testsuite name="CellTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-04-04T06:37:56" hostname="Tarsier" time="0.021">
   <properties/>
-  <testcase name="shouldReturnNumberOfActiveNeighborsForAGivenCell()" classname="CellTest" time="0.175">
-    <failure message="java.lang.AssertionError: &#10;Expected: is &lt;2&gt;&#10;     but: was &lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
-Expected: is &lt;2&gt;
-     but: was &lt;0&gt;
+  <testcase name="expectCellToDieDueToUnderPopulation()" classname="CellTest" time="0.021">
+    <failure message="java.lang.AssertionError: &#10;Expected: is &lt;false&gt;&#10;     but: was null" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is &lt;false&gt;
+     but: was null
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-	at CellTest.shouldReturnNumberOfActiveNeighborsForAGivenCell(CellTest.java:20)
+	at CellTest.expectCellToDieDueToUnderPopulation(CellTest.java:32)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

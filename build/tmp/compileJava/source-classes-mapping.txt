@@ -1,4 +1,0 @@
-Cell.java
- Cell
-Universe.java
- Universe
